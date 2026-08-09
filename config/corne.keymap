@@ -20,6 +20,22 @@
         };
     };
 
+    macros {
+        spanish_tilde: spanish_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp E>;
+            label = "SPANISH_TILDE";
+        };
+
+        exclamation_mark: exclamation_mark {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp EXCL>;
+            label = "EXCLAMATION_MARK";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
