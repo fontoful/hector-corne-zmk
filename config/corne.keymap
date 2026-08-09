@@ -31,14 +31,28 @@
         spanish_tilde: spanish_tilde {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp E>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp E>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
             label = "SPANISH_TILDE";
         };
 
         exclamation_mark: exclamation_mark {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp EXCL>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp NUMBER_1>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
             label = "EXCLAMATION_MARK";
         };
 
