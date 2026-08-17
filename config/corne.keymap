@@ -16,7 +16,7 @@
         right-hand-jkl-right-gui {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <19 20 21>;
-            timeout-ms = <30>;
+            timeout-ms = <38>;
             layers = <0>;
         };
 
